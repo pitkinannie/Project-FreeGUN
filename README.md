@@ -1,40 +1,30 @@
 # Project FreeGUN
-Project FreeGUN is a FOSS 2D shooter made in the Godot Engine. Everything in the game is free and open source; the code, art assests, etc. The goal of the project is to be a framework to be built upon for other games. The game is built around mouse and keyboard controls, and should work on Windows, Linux, and macOS.
+Project FreeGUN is a browser-based 2D shooter game where you defend against waves of enemies using laser weapons. The game features smooth controls, increasing difficulty, and an engaging scoring system.
 
-## Dependencies
+## Play Now
+Visit [https://pitkinannie.github.io/Project-FreeGUN](https://pitkinannie.github.io/Project-FreeGUN) to play the game directly in your browser!
 
-- Godot 3.1 (will not work with 3.0.6 or earlier!)
+## Controls
+- **WASD**: Move the player
+- **Mouse**: Aim
+- **Left Click**: Shoot laser
+- Stay on the left side and defend against enemies coming from the right!
 
-## Setup for game development
-- Navigate to the desired install location
-  ```
-  cd Project
-  ```
-- Inside the target folder, clone this repository
-  ```
-  git clone https://github.com/devmcclu/Project-FreeGUN.git
-  ```
-- Open the project in Godot
-- Now you are ready to make your game!
+## Features
+- Smooth player movement and aiming
+- Laser weapons with cool visual effects
+- Enemy waves with increasing difficulty
+- Score tracking
+- Responsive design that works on most browsers
 
-## Setup for FreeGUN development
-- Navigate to the desired install location
-  ```
-  cd Project
-  ```
-- Inside the target folder, clone this repository
-  ```
-  git clone https://github.com/devmcclu/Project-FreeGUN.git
-  ```
-- Checkout the 'develop' branch
-  ```
-  git checkout develop
-  ```
-- Open the project in Godot
-- Now you are ready to contribute to Project FreeGUN!
-
-## Development Roadmap
-Check out our [Trello](https://trello.com/b/NlWX2MxC/project-freegun) to see our roadmap for development. Don't worry though if you have something not on the board, all ideas are welcome!
+## Development
+The game is built using HTML5 Canvas and vanilla JavaScript. To run it locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pitkinannie/Project-FreeGUN.git
+   ```
+2. Open index.html in your browser
+3. No build process or dependencies required!
 
 ## License
 Available according to the terms in `LICENSE` (MIT)
